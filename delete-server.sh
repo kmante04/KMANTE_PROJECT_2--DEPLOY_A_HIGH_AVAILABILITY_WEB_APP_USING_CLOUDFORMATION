@@ -1,0 +1,1 @@
+aws cloudformation delete-stack --stack-name Udagramserver --template-body file://servers.yml --parameters file://serverparameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
